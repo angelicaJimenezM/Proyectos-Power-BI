@@ -19,3 +19,14 @@ En este primer avance desarrollé un dashboard en Power BI a partir de un excel 
   - Gráfico circular: reclutamiento por fuente.
   - Tarjetas: salario total, promedio de desempeño, índice de satisfacción, rotación anual.
 ![alt text](image.png)
+---------------------------------------------------------------------------------------------
+### Lo que hice en este paso:
+
+- Añadí **segmentación de datos** por gerente, cargo y departamento para hacer el dashboard más interactivo.  
+- Creé una **columna calculada de estado** para clasificar a los empleados entre **Activos** y **Ex-empleados**.  tuvieran fecha de salida
+- Incorporé una **tabla dinámica** para visualizar el detalle de los empleados filtrados.  
+- Creé la columna **Año de salida** para facilitar el análisis temporal.  
+- Implementé la métrica de **rotación anual** diferenciando empleados activos y los que salieron.  
+- Refiné los KPIs y mejoré la navegación entre visualizaciones.  
+
+![alt text](image-1.png)
