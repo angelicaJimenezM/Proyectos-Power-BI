@@ -1,6 +1,6 @@
-#Análisis de Recursos Humanos y Satisfacción Laboral
+###**Análisis de Recursos Humanos y Satisfacción Laboral**
 
-#Objetivo
+##**Objetivo**
 
 Analizar la base de empleados para identificar patrones en rotación, desempeño, satisfacción y costos de nómina, y presentar los hallazgos en un dashboard interactivo.
 
