@@ -34,11 +34,11 @@ En este primer avance desarrollé un dashboard en Power BI a partir de un excel 
 **---------------------------------------------------------------------------------------------**
 ### Lo que hice en este paso:
 
--Reemplacé el **gráfico de desempeño** por **departamento** por un **gráfico 100%** apilado para mostrar la proporción de empleados arriba, dentro y abajo de lo esperado en cada área.
--Ajusté la paleta de colores corporativa para dar un estilo más formal y consistente (azules y morados).
--Mejoré los **KPIs** con iconos representativos (empleados activos, ex empleados, salario total, desempeño, rotación anual y total, índice de satisfacción).
--Rediseñé la sección de **KPIs** para que sean más claros y visualmente atractivos.
--Incorporé segmentadores (gerente, departamento, estado y cargo) para facilitar la exploración de datos.
--Ajusté la tabla final mostrando información detallada de empleados, con campos clave como fechas de contratación/salida, fuente de reclutamiento y desempeño.
+- Reemplacé el **gráfico de desempeño** por **departamento** por un **gráfico 100%** apilado para mostrar la proporción de empleados arriba, dentro y abajo de lo esperado en cada área.
+- Ajusté la paleta de colores corporativa para dar un estilo más formal y consistente (azules y morados).
+- Mejoré los **KPIs** con iconos representativos (empleados activos, ex empleados, salario total, desempeño, rotación anual y total, índice de satisfacción).
+- Rediseñé la sección de **KPIs** para que sean más claros y visualmente atractivos.
+- Incorporé segmentadores (gerente, departamento, estado y cargo) para facilitar la exploración de datos.
+- Ajusté la tabla final mostrando información detallada de empleados, con campos clave como fechas de contratación/salida, fuente de reclutamiento y desempeño.
 
 ![alt text](image-2.png)
