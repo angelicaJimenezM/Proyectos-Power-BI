@@ -23,3 +23,12 @@ En este primer avance desarrollé un dashboard en Power BI a partir de un excel 
   - Mapa mundial: distribución geográfica de las ventas.
   
   ![alt text](image.png)
+
+**---------------------------------------------------------------------------------------------**
+
+### Lo que hice en este paso:
+
+  - Añadí el gráfico de Top 5 países por ventas para complementar el análisis.
+  - Cambié la paleta de colores del gráfico de anillo para mejorar la visualización.
+
+  ![alt text](image-1.png)
