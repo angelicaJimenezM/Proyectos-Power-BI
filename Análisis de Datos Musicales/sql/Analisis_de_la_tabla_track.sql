@@ -1,0 +1,33 @@
+SELECT * FROM track;
+
+SELECT *
+FROM Track
+WHERE TrackId IS NULL
+   OR Name IS NULL
+   OR AlbumId IS NULL
+   OR MediaTypeId IS NULL 
+   OR GenreId IS NULL
+   OR Composer IS NULL 
+   OR Milliseconds IS NULL
+   OR Bytes IS NULL 
+   OR UnitPrice IS NULL;
+
+   UPDATE Track 
+   SET Composer = 'No tiene compositor'
+   where Composer IS NULL;
+
+
+SELECT 
+    COLUMN_NAME,
+    IS_NULLABLE,
+    DATA_TYPE,
+    CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'track' AND IS_NULLABLE = 'YES';
+
+ALTER TABLE track 
+ALTER COLUMN composer NVARCHAR (220) NOT NULL;
+
+ALTER TABLE track
+ALTER COLUMN Bytes INT NOT NULL;
+

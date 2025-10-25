@@ -1,0 +1,40 @@
+SELECT * FROM Invoice;
+
+SELECT * FROM Invoice
+WHERE InvoiceId IS NULL
+OR CustomerId IS NULL
+OR InvoiceDate IS NULL
+OR BillingAddress IS NULL
+OR BillingCity IS NULL
+OR BillingState IS NULL
+OR BillingState IS NULL
+OR BillingCountry IS NULL
+OR BillingPostalCode IS NULL
+OR Total IS NULL;
+
+UPDATE Invoice
+SET BillingState = ISNULL(BillingState, 'NN'),
+	BillingPostalCode = ISNULL(BillingPostalCode, 0);
+
+SELECT 
+    COLUMN_NAME,
+    IS_NULLABLE,
+    DATA_TYPE,
+    CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Invoice' AND IS_NULLABLE = 'YES';
+
+ALTER TABLE Invoice
+ALTER COLUMN BillingAddress NVARCHAR(70) NOT NULL;
+
+ALTER TABLE Invoice 
+ALTER COLUMN BillingCity NVARCHAR (40) NOT NULL;
+
+ALTER TABLE Invoice 
+ALTER COLUMN BillingState NVARCHAR (40) NOT NULL;
+
+ALTER TABLE Invoice 
+ALTER COLUMN BillingCountry NVARCHAR (40) NOT NULL;
+
+ALTER TABLE Invoice 
+ALTER COLUMN BillingPostalCode NVARCHAR (10) NOT NULL;
